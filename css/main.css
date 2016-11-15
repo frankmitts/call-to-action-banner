@@ -35,7 +35,7 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  float: right;
+  float: left;
   width: 50%;
   max-width: 50em;
   font-size: 3rem;
@@ -43,12 +43,12 @@ body {
 }
 
 .banner p {
-  display:block;
+  display: block;
   font-size: 1.5rem;
   position: absolute;
-  top: 6rem;
+  top: 20%;
   left: 50%;
-  float: right;
+  float: left;
   width: 50%;
   max-width: 50em;
   font-family: "Roboto Condensed", sans-serif;
@@ -56,9 +56,9 @@ body {
 
 .btn-big {
   position: absolute;
-  top: 18.5rem;
+  top: 35%;
   left: 50%;
-  float: right;
+  float: left;
   width: 50%;
   max-width: 50em;
 }
@@ -68,16 +68,20 @@ body {
   position: absolute;
   top: 2rem;
   left: 1rem;
-  float: left;
+  z-index: 1000;
   width: 30%;
 }
 
 .btn {
-  background-color: #000;
+  background-color: #333;
   padding: 1rem;
   border: 2px;
   border-radius: 7px;
   color: #fff;
 
   font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
